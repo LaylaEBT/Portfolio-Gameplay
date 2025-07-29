@@ -3,11 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Développeuse Gameplay</title>
+    <title>Portfolio - Développeuse Gameplay - Layla EL BAKALI TAHERI</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        border-radius: 1rem;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      }
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
   </head>
-  <body class="bg-gray-100 text-gray-800 font-sans">
-    <header class="bg-indigo-700 text-white py-6 shadow-lg">
+  <body class="bg-teal-50 text-gray-800 font-sans">
+    <header class="bg-teal-600 text-white py-6 shadow-lg">
       <div class="max-w-4xl mx-auto px-4">
         <h1 class="text-3xl font-bold">Portfolio de Développeuse Gameplay</h1>
         <p class="text-lg">Bonjour ! Je suis une apprentie développeuse gameplay spécialisée dans Unity.</p>
@@ -16,56 +34,58 @@
 
     <main class="max-w-4xl mx-auto px-4 py-8 space-y-12">
       <section>
-        <h2 class="text-2xl font-semibold mb-4">Mes Projets</h2>
-<!-- Projet 1 -->
-<div class="bg-white p-6 rounded-xl shadow-md space-y-4">
-  <h3 class="text-xl font-bold">L'Alchimiste des Mondes</h3>
-  <div class="aspect-w-16">
-    <iframe src="https://www.youtube.com/embed/T_YxMQzN1-o" title="Vidéo de L'Alchimiste des Mondes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-  <p>
-    Un jeu en 3D dans lequel une alchimiste tente de réparer les failles entre deux mondes. J'ai conçu les mécaniques de changement de dimension, les puzzles temporels et l'intégration de systèmes de portails dynamiques.
-  </p>
-</div>
+        <h2 class="text-2xl font-semibold mb-4 text-teal-800">Mes Projets</h2>
 
-<!-- Projet 2 -->
-<div class="bg-white p-6 rounded-xl shadow-md space-y-4">
-  <h3 class="text-xl font-bold">Theseus le Chat</h3>
-  <div class="aspect-w-16">
-    <iframe src="https://www.youtube.com/embed/MxEP6dAVq5c" title="Vidéo de Theseus le Chat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-  <p>
-    Un jeu de plateforme 2D où l'on incarne un chat qui revit le mythe de Thésée. J'ai travaillé sur le level design, les contrôles du personnage et l'intégration des checkpoints.
-  </p>
-</div>
+        <!-- Projet 1 -->
+        <div class="bg-white p-6 rounded-xl shadow-md space-y-4">
+          <h3 class="text-xl font-bold text-teal-700">L'Alchimiste des Mondes</h3>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/T_YxMQzN1-o" title="Vidéo de L'Alchimiste des Mondes" allowfullscreen></iframe>
+          </div>
+          <p>
+              Un jeu en 3D dans lequel une alchimiste tente de réparer les failles entre deux mondes. J'ai conçu les mécaniques de changement de dimension, les cutscenes et l'intégration des ennemis.
+          </p>
+        </div>
 
-<!-- Projet 3 -->
-<div class="bg-white p-6 rounded-xl shadow-md space-y-4">
-  <h3 class="text-xl font-bold">Dragon du Néant</h3>
-  <div class="aspect-w-16">
-    <iframe src="https://www.youtube.com/embed/4zy4IGOk9X0" title="Vidéo de Dragon du Néant" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-  <p>
-    Un jeu d'action où un dragon affronte des ennemis interdimensionnels. J'ai programmé le système de combat, l'IA des ennemis, et la gestion dynamique des vagues.
-  </p>
-</div>
+        <!-- Projet 2 -->
+        <div class="bg-white p-6 rounded-xl shadow-md space-y-4">
+          <h3 class="text-xl font-bold text-teal-700">Theseus le Chat</h3>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/MxEP6dAVq5c" title="Vidéo de Theseus le Chat" allowfullscreen></iframe>
+          </div>
+          <p>
+              Un jeu de plateforme 2D où l'on incarne un chat qui revit le mythe de Thésée. J'ai travaillé sur le level design, les contrôles du personnage et l'intégration des ennemis.
+          </p>
+        </div>
 
-<!-- Projet 4 -->
-<div class="bg-white p-6 rounded-xl shadow-md space-y-4">
-  <h3 class="text-xl font-bold">Orphée : Voyage en Enfer</h3>
-  <div class="aspect-w-16">
-    <iframe src="https://www.youtube.com/embed/8k6V9lY97aU" title="Vidéo de Orphée : Voyage en Enfer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-  <p>
-    Une aventure plateforme 2D inspirée du mythe d'Orphée. J'ai travaillé sur la narration interactive, les transitions entre les niveaux et l'atmosphère sonore immersive.
-  </p>
-</div>
+        <!-- Projet 3 -->
+        <div class="bg-white p-6 rounded-xl shadow-md space-y-4">
+          <h3 class="text-xl font-bold text-teal-700">Dragon du Néant</h3>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/4zy4IGOk9X0" title="Vidéo de Dragon du Néant" allowfullscreen></iframe>
+          </div>
+          <p>
+              Un jeu d'action où un dragon affronte des ennemis interdimensionnels. J'ai programmé le spawn et l'IA des ennemis ainsi que les boosters.
+          </p>
+        </div>
+
+        <!-- Projet 4 -->
+        <div class="bg-white p-6 rounded-xl shadow-md space-y-4">
+          <h3 class="text-xl font-bold text-teal-700">Orphée : Voyage en Enfer</h3>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/8k6V9lY97aU" title="Vidéo de Orphée : Voyage en Enfer" allowfullscreen></iframe>
+          </div>
+          <p>
+              Une aventure plateforme 2D inspirée du mythe d'Orphée. J'ai travaillé sur le système d'inventaire interactif ainsi que les mécaniques de jeu du player et des ennemis.
+          </p>
+        </div>
       </section>
     </main>
 
-    <footer class="bg-indigo-700 text-white py-4 mt-12">
-      <div class="text-center">© 2025 - Portfolio de [Ton Prénom]</div>
+    <footer class="bg-teal-600 text-white py-4 mt-12">
+        <div class="text-center">© 2025 - Portfolio de Layla EL BAKALI TAHERI</div>
     </footer>
   </body>
 </html>
+
 
